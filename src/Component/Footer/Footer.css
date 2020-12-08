@@ -1,0 +1,26 @@
+.footer{
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.footer p{
+    color: rgba(2, 17, 27, 0.582);
+    text-align: center;
+    font-size: x-large;
+}
+.footer p a{
+    text-decoration: none;
+    color: rgba(59, 177, 255, 0.685);
+}
+.footer p a:hover{
+    color: rgba(59, 177, 255, 0.425);
+}
+
+@media only screen and (max-width: 576px) { 
+    .footer p{
+        color: rgba(12, 100, 158, 0.616);
+    }
+    .footer p a{
+        color: rgba(39, 151, 226, 0.719);
+    }
+}

@@ -7,6 +7,7 @@
 body{
     background-image: radial-gradient(circle, rgba(59, 177, 255, 0.562) 20%, black 80%);
     box-sizing: border-box;
+    height: 100vh;
 }
  .login{
      height: 100vh;
@@ -40,6 +41,7 @@ main{
     height: 120px;
     width: 120px;
     border-radius: 50%;
+    content: 'Upload photo';
 }
 
 .img-div:hover{
@@ -102,9 +104,12 @@ input:focus, textarea:focus, select:focus{
 }
 .temsService a{
     text-decoration: none;
-    color: rgba(13, 30, 39, 0.815);
+    color: rgba(22, 111, 170, 0.664);
     font-weight: bolder;
     font-size: x-large;
+}
+.temsService a:hover{
+    color: rgba(59, 177, 255, 0.425);
 }
 
 @media only screen and (max-width: 576px) { 
@@ -112,6 +117,7 @@ input:focus, textarea:focus, select:focus{
         width: 14rem !important;
     }
     .temsService a{
+        color: rgba(22, 111, 170, 0.664);
         font-size: larger;
     }
 }

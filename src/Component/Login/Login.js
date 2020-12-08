@@ -71,10 +71,8 @@ class Login extends Component {
           </form>
           <div className="temsService">
             <p>By Registering, | accept the</p>
-            <a href="#">
-              {" "}
-              Terms of Service <span>and </span>Privacy Policy
-            </a>
+            <a href="#"> Terms of Service </a> <span>and </span>
+            <a href="#"> Privacy Policy</a>
           </div>
         </main>
       </div>
