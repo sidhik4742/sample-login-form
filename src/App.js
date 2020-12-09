@@ -104,7 +104,7 @@ function App() {
   return (
     <div className="mainPage">
       <Router>
-        <Switch>
+        {/* <Switch>
           <Route path="/admin" exact>
             <AdminLogin />
           </Route>
@@ -159,8 +159,8 @@ function App() {
               filterData={filterData}
             />
           </Route>
-        </Switch>
-        <Switch>
+        </Switch> */}
+        {/* <Switch>
           <Route path="/dealer" exact>
             <DealerLogin />
           </Route>
@@ -221,7 +221,7 @@ function App() {
               setdealerLoginCrentials={setdealerLoginCrentials}
             />
           </Route>
-        </Switch>
+        </Switch> */}
         <Switch>
           <Route path="/" exact>
             <CustomerLanding
@@ -241,7 +241,7 @@ function App() {
               cartCount={cartCount}
             />
           </Route>
-          <Route path="/viewcart" exact>
+          {/* <Route path="/viewcart" exact>
             <ViewCart
               mainUrl={mainUrl}
               cartDetailsCpy={cartDetailsCpy}
@@ -320,7 +320,7 @@ function App() {
               userSignUpDetails={userSignUpDetails}
               setUserSignUpDetails={setUserSignUpDetails}
             />
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
     </div>
