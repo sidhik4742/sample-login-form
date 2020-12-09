@@ -1,0 +1,11 @@
+.dashboardTable {
+  position: absolute;
+  top: 17vh;
+  left:21vw;
+}
+
+.dashboardTable .panelContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

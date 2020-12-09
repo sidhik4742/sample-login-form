@@ -1,0 +1,30 @@
+.headerComponent {
+  position: relative;
+}
+
+.headerComponent .header {
+  position: relative;
+}
+
+.headerComponent .header .navbar-brand {
+  display: inline-block;
+  padding: 0;
+  /* padding-top: .3125rem; */
+  /* padding-bottom: .3125rem; */
+  /* margin-right: 1rem; */
+  margin-left: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.headerComponent .header .navbar {
+  /* height: 10vh; */
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+
+.headerComponent .header .headerLogo {
+  font-size: xx-large;
+}

@@ -1,0 +1,57 @@
+.checkout {
+  /* position: relative; */
+}
+.checkout .parent {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+}
+.checkout .parent .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid silver;
+}
+.checkout .parent .header button {
+  padding: 5px 40px 5px 40px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.checkout .parent .header button:hover {
+  background-color: rgba(116, 231, 126, 0.856);
+}
+.checkout .parent .productDetails {
+  display: flex;
+  justify-content: space-between;
+}
+.checkout .parent .productDetails .shipAddress p {
+  color: silver;
+}
+.checkout .parent .productDetails .oldPrice {
+  display: flex;
+}
+.checkout .parent .productDetails .oldPrice #old {
+  text-decoration: line-through;
+  padding-right: 10px;
+}
+.checkout .parent .productDetails .shipment-n-of-n {
+  padding: 1rem;
+  width: 60%;
+}
+.checkout .parent .productDetails .shipAddress span i {
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.checkout .parent .productDetails .deliveryDetails {
+  padding: 1rem;
+  width: 40%;
+}
+
+.checkout .parent .productDetails .deliveryDetails .chooseDelivery span {
+  display: flex;
+}

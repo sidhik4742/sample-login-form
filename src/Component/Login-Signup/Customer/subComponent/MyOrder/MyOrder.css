@@ -1,0 +1,39 @@
+.parentContent {
+  border: 1px solid silver;
+  width: 70vw;
+  margin: 1rem;
+  padding:0.4rem;
+  border-radius: 15px;
+}
+.parentContent .superHeader {
+  border-bottom: 1px solid silver;
+}
+.parentContent .superHeader .header {
+}
+
+.parentContent .superHeader .header .orderPlacedDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.parentContent .superHeader .header .orderPlacedDate .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parentContent .body .bodyContent{
+    display: flex;
+    
+  }
+
+  .parentContent .body .bodyContent .details{
+    padding:0.5rem;
+}
+  .parentContent .body .bodyContent .image img {
+    height:100px;
+    width: 75px ;
+  }
+  .parentContent .body .bodyContent .details .bookName{
+    
+  }

@@ -1,0 +1,115 @@
+.placeOrder {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-20%, -1%);
+}
+.placeOrder p {
+  margin: 0;
+  padding: 0;
+}
+.placeOrder .headerSection {
+  display: flex;
+  justify-content: space-between;
+  width: 70rem;
+}
+.placeOrder .headerSection .placeOrderBtn {
+  width: 18rem;
+  border: 1px solid silver;
+  border-radius: 25px;
+  padding: 1rem;
+}
+.placeOrder .headerSection .placeOrderBtn .btn button {
+  margin-left: 2rem;
+  padding: 7px 5px 7px 5px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  border-color: transparent;
+  align-items: center;
+}
+.placeOrder .headerSection .placeOrderBtn .btn button:hover {
+  background-color: rgba(116, 231, 126, 0.856);
+}
+.placeOrder .headerSection .placeOrderBtn .orderSummery #savings {
+  color: rgb(138, 3, 3);
+  font-weight: bolder;
+}
+
+.placeOrder .headerSection .placeOrderBtn .orderSummery #orderTotal {
+  font-size: larger;
+  color: rgb(138, 3, 3);
+  font-weight: bolder;
+}
+.placeOrder .headerSection .placeOrderBtn .orderSummery #couponOffer {
+  font-size: small;
+  color: rgb(138, 3, 3);
+  font-weight: bolder;
+}
+.placeOrder .head {
+}
+.placeOrder .paymentInfo {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid silver;
+  border-radius: 25px;
+  margin: 0.5rem;
+  padding: 1rem;
+  /* align-items: center; */
+}
+.placeOrder .paymentInfo .paymentmethod {
+  margin-right: 1rem;
+}
+.placeOrder .paymentInfo .address {
+  margin-right: 1rem;
+}
+.placeOrder .productInfo {
+  width: 50rem;
+}
+.placeOrder .headerSection .coupon {
+  padding: 1rem;
+  margin-top: 2rem;
+
+}
+.placeOrder .headerSection .coupon input {
+  width:15rem;
+}
+.placeOrder .headerSection .coupon button {
+  width:15rem;
+}
+.placeOrder .productInfo .oneProduct {
+  border: 1px solid silver;
+  border-radius: 25px;
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+
+.placeOrder .productInfo .oneProduct .header h4 {
+  color: green;
+}
+
+.placeOrder .productInfo .oneProduct .productDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.placeOrder .productInfo .oneProduct .productDetails .image img {
+  width: 100px;
+  height: auto;
+}
+
+.placeOrder .productInfo .oneProduct .productDetails .content #oldPrice {
+  text-decoration: line-through;
+  font-size: large;
+  font-weight: 500;
+}
+
+.placeOrder .productInfo .oneProduct .productDetails .content #newPrice {
+  font-size: large;
+  font-weight: 500;
+  color: rgb(138, 3, 3);
+  margin-left: 5px;
+}

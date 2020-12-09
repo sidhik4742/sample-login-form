@@ -1,0 +1,38 @@
+.dashboardPanel .dashboard {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 20vw;
+  min-height:100vh;
+  max-height: 100%;
+  background-image: linear-gradient(#111111, #333333);
+}
+
+.dashboardPanel .dashboard p {
+  text-align: center;
+  color: whitesmoke;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.dashboardPanel .dashboard .img-div {
+  width: 120px;
+  height: 120px;
+  background-image: url();
+  background-position: center;
+  background-size: 100%;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.dashboardPanel .dashboard .img-div img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  content: "Upload photo";
+}

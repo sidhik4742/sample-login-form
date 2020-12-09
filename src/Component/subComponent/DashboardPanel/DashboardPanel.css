@@ -1,0 +1,17 @@
+.dashboardPanel .dashboard {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 15vw;
+  height:100vh;
+  min-height:100%;
+  max-height: 100%;
+  background-image: linear-gradient(#111111, #333333);
+}
+
+.dashboardPanel .dashboard p {
+  text-align: center;
+  color: whitesmoke;
+  font-size: larger;
+  cursor: pointer;
+}

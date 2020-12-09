@@ -1,0 +1,78 @@
+.signupPage {
+  background-image: url("../../Images/Login-Bg.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.signupPage .imageCropSection {
+  min-width: 500px;
+  min-height: 250px;
+  max-width: 750px;
+  max-height: 400px;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-color: black;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signupPage .imageCropSection .imageCropCanvas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 0;
+}
+
+.signupPage .imageCropSection .imageCropCanvas .croppedScreen {
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+}
+.signupPage .imageCropSection .imageCropCanvas .previewScreen{
+  
+}
+
+.signupPage .signupForm {
+  background-color: whitesmoke;
+  opacity: 0.9;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 50vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signupPage .signupForm .img-div {
+  width: 120px;
+  height: 120px;
+  background-image: url();
+  background-position: center;
+  background-size: 100%;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.signupPage .signupForm .img-div img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  content: "Upload photo";
+  cursor: pointer;
+}
+
+.signupPage .signupForm .img-div:hover {
+  opacity: 0.5;
+  filter: blur(2px);
+}

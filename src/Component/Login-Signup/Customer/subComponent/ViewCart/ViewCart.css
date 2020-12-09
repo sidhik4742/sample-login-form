@@ -1,0 +1,70 @@
+.viewCart .subClass {
+  /* display: flex; */
+  padding: 1em 0 0 0.4rem;
+}
+
+.viewCart .subClass .parentContent {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.viewCart .subClass .totalCheckout {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+  transform: translate(-10%);
+}
+.viewCart .subClass .totalCheckout button {
+  margin-left: 10px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  height: 40px;
+  border-color: transparent;
+}
+.viewCart .subClass .totalCheckout h1 {
+  /* font-size: xx-large; */
+}
+.viewCart .subClass .parentContent .details {
+  padding: 10px;
+}
+.viewCart .subClass .parentContent .details .price {
+  display: flex;
+  align-items: center;
+}
+.viewCart .subClass .parentContent .details .price h4{
+  margin-right: 10px;
+}
+
+.viewCart .subClass .parentContent .details .calculations .actionInput {
+  width: 1rem;
+}
+.viewCart .subClass .parentContent .details .calculations button {
+}
+.viewCart .subClass .parentContent .details .actions {
+  margin: 25px;
+}
+.viewCart .subClass .parentContent .details .oldRate {
+  text-decoration: line-through;
+}
+.viewCart .subClass .parentContent .details .actions :first-child {
+  margin-left: 10px;
+  background-color: grey;
+  border-radius: 10px;
+  height: 40px;
+  border-color: transparent;
+}
+/* .viewCart .subClass .parentContent .details .actions :last-child {
+  margin-left: 10px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  height: 40px;
+  border-color: transparent;
+} */
+
+.viewCart .subClass .parentContent .image img {
+  width: 150px;
+  height: 225px;
+}

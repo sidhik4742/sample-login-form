@@ -1,0 +1,37 @@
+.landingPageProduct {
+  display: grid;
+  row-gap: 35px;
+  column-gap: 35px;
+  grid-template-columns: auto auto auto auto;
+  margin: 2rem;
+}
+
+.landingPageProduct .allProduct {
+  border-radius: 20px;
+}
+.landingPageProduct .allProduct .card {
+  border-radius: 20px;
+  background-color: rgba(12, 12, 12, 0.9);
+  min-height: 20rem;
+  max-height: max-content;
+  height:28rem;
+  min-width: 15rem;
+}
+
+.landingPageProduct .allProduct .cardImage {
+  height: 15rem;
+  width: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: pointer;
+}
+
+.landingPageProduct .allProduct .cardTitle {
+  font-size: medium;
+  font-weight: bolder;
+  color: white;
+}
+.landingPageProduct .allProduct .cardContent {
+  font-size: 15px;
+  color: white;
+}

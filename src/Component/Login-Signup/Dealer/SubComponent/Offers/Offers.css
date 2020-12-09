@@ -1,0 +1,19 @@
+.offers {
+}
+.offers .offerForm {
+  margin: 2rem 0 0 0;
+  margin-left: 10%;
+  width: 35rem;
+  /* transform: translate(-50%); */
+}
+
+.offers .panelContent .offerForm .generate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1rem 0;
+}
+
+.offers .panelContent .table {
+  margin: 2rem 0 0 2rem;
+}

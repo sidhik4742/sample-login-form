@@ -1,0 +1,14 @@
+.dashboardTable {
+  position: absolute;
+  top: 15vh;
+  left: 21vw;
+}
+
+.dashboardTable table {
+  font-size: 14px;
+}
+
+.dashboardTable img {
+  width: 25px;
+  height: auto;
+}

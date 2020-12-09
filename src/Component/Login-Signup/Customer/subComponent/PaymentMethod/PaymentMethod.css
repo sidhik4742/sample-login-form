@@ -1,0 +1,58 @@
+.paymentMethod {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-20%, -30%);
+}
+.paymentMethod .info {
+}
+.paymentMethod .savedCard {
+  padding: 1rem;
+  border: 1px solid silver;
+  border-radius: 25px;
+}
+.paymentMethod .savedCard p {
+  font-size: large;
+  padding-bottom: 7px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+  font-weight: bolder;
+}
+
+.paymentMethod .savedCard .savedCardSection {
+  display: flex;
+  justify-content: space-between;
+}
+.paymentMethod .savedCard .savedCardSection .submitBtn {
+  display: none;
+}
+.paymentMethod .savedCard .savedCardSection .submitBtn button {
+  margin-left: 3rem;
+  padding: 5px 30px 5px 30px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.paymentMethod .savedCard .savedCardSection .submitBtn button:hover {
+  background-color: rgba(116, 231, 126, 0.856);
+}
+.paymentMethod .savedCard .cardTable table {
+}
+
+.paymentMethod .savedCard .anotherPayment {
+}
+.paymentMethod .savedCard .anotherPayment .head {
+  font-size: larger;
+  font-weight: bolder;
+}
+.paymentMethod .savedCard .anotherPayment .cardPaymentOption {
+}
+
+.paymentMethod .savedCard .anotherPayment .cardPaymentOption .note {
+  margin-left: 20px;
+}
+
+.paymentMethod .savedCard .anotherPayment .cardPaymentOption .codOption {
+}

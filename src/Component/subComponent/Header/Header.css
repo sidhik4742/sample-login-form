@@ -1,0 +1,17 @@
+.headerComponent {
+  position: relative;
+}
+
+.headerComponent .header {
+  position: relative;
+}
+.headerComponent .header .navbar {
+  /* height: 10vh; */
+  position: relative;
+  width: 100vw;
+  top: 0;
+}
+
+.headerComponent .header .headerLogo {
+  font-size: xx-large;
+}

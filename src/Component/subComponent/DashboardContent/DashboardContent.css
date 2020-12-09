@@ -1,0 +1,25 @@
+.dashboardContent {
+  display: flex;
+  justify-content: center;
+  width:50rem;
+}
+
+.dashboardContent .card {
+  margin: 1.5rem;
+  background-color: beige;
+  
+  width: 15rem;
+  height: max-content;
+}
+
+.dashboardContent .card .cardText{
+    padding: 0.5rem;
+}
+
+.dashboardContent .card p{
+  font-weight: bolder;
+}
+.dashboardContent .card .value {
+  font-size: 3rem;
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+.viewBookParent .backbutton {
+  position: absolute;
+  left: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.viewBook {
+  display: flex;
+  /* margin-right: 50%; */
+  margin-left: 10em;
+  margin-top: 10%;
+  /* position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate((-30%, -30%)); */
+}
+
+.viewBook .image img {
+  /* margin: 2rem; */
+  width: 19em;
+  height: auto;
+}
+
+.viewBook .content {
+  margin-left: 1rem;
+}
+
+.viewBook .content .reviewAndRating .parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.viewBook .content .reviewAndRating .parent .rating {
+  padding: 1rem;
+  background-color: rgba(31, 184, 31, 0.6);
+  border-radius: 50%;
+}
+.viewBook .content .reviewAndRating .parent .rating h5 {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.viewBook .content .reviewAndRating .parent .review {
+  width: 10em;
+}
+
+.viewBook .offers .offerParent {
+  display: flex;
+}
+.viewBook .offers .offerParent h1 {
+  margin-right: 10px;
+}
+
+.viewBook .offers .offerParent .orginalPrice {
+  text-decoration: line-through;
+}
+
+.viewBookParent .addToCart {
+  padding-top: 5px;
+  position: absolute;
+  right: 1rem;
+}
+.viewBookParent .addToCart button {
+  padding: 5px 20px 5px 20px;
+  background-color: rgba(228, 47, 47, 0.925);
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+.discription {
+  margin-left: 10rem;
+}

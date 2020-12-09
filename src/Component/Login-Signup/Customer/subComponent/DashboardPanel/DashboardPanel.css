@@ -1,0 +1,69 @@
+.dashboardPanel .dashboard {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 17vw;
+  min-height:100%;
+  height: 100vh;
+  max-height: 100%;
+  background-image: linear-gradient(#111111, #333333);
+}
+.dashboardPanel .dashboard .profilepicture .imageCropSection {
+  min-width: 500px;
+  min-height: 250px;
+  max-width: 750px;
+  max-height: 400px;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-color: black;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+  display: none;
+}
+.dashboardPanel .dashboard .profilepicture .imageCropSection .imageCropCanvas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .dashboardPanel .dashboard .profilepicture .imageCropSection .imageCropCanvas .croppedScreen {
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+} */
+
+.dashboardPanel .dash board .profilepicture p {
+  text-align: center;
+  color: whitesmoke;
+  font-size: larger;
+  cursor: pointer;
+}
+.dashboardPanel .dashboard .profilepicture .img-div {
+  width: 120px;
+  height: 120px;
+  background-image: url();
+  background-position: center;
+  background-size: 100%;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.dashboardPanel .dashboard .profilepicture .img-div img {
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 50%;
+  content: 'Upload photo';
+}
+
+.dashboardPanel .dashboard .profilepicture .img-div:hover {
+  opacity: 0.5;
+  filter: blur(2px);
+}

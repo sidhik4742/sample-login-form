@@ -1,0 +1,47 @@
+#category {
+  height: 2.49rem;
+  border-color: grey;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.addProduct .addProductModel .previewParent {
+  display: flex;
+  align-items: center;
+}
+
+#imagePreview {
+  width: 78px;
+  height: 100px;
+}
+.addProduct .imageCropSection {
+  min-width: 500px;
+  min-height: 250px;
+  max-width: 750px;
+  max-height: 400px;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-color: black;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 999999;
+}
+.addProduct .imageCropSection .imageCropCanvas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 0;
+}
+.ReactCrop__image {
+  width: 200px !important;
+  height: 200px !important ;
+}
+.addProduct.imageCropSection .imageCropCanvas .croppedScreen {
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+}
