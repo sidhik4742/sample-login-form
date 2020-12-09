@@ -12,22 +12,25 @@ import Home from './Component/Home/Home';
 
 function App() {
   console.log('====================================');
-  console.log("App.js");
+  console.log('App.js');
   console.log('====================================');
   return (
     <div className="App">
       <Router>
-        <Route path="/" exact>
-          <Login />
-          <Footer />
-        </Route>
-        <Route path="/home" >
-          <Home/>
-        </Route>
+        <Switch>
+          <Route path="/" exact>
+            <Login />
+            <Footer />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route path="/home">
+            <Home />
+          </Route>
+        </Switch>
       </Router>
     </div>
   );
 }
 
 export default App;
- 
